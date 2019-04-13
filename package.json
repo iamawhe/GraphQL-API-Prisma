@@ -1,0 +1,22 @@
+{
+	"name": "hackernews-clone",
+	"version": "1.0.0",
+	"description": "A simple clone of the hackernews site",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"start": "node src/index"
+	},
+	"keywords": [
+		"graphql"
+	],
+	"author": "rookie blue",
+	"license": "MIT",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"graphql": "^14.2.1",
+		"graphql-yoga": "^1.17.4",
+		"jsonwebtoken": "^8.5.1",
+		"prisma-client-lib": "^1.30.1"
+	}
+}
