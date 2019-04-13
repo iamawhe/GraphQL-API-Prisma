@@ -5,6 +5,7 @@ const Mutation = require('./resolvers/Mutation');
 const User = require('./resolvers/User');
 const Link = require('./resolvers/Link');
 const Subscription = require('./resolvers/Subscription');
+const Vote = require('./resolvers/Vote');
 
 //2 - Resolver fnc (implementation)
 const resolvers = {
@@ -12,7 +13,8 @@ const resolvers = {
 	Mutation,
 	User,
 	Link,
-	Subscription
+	Subscription,
+	Vote
 };
 
 //3

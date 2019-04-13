@@ -4,6 +4,10 @@ const postedBy = (root, args, context, info) => {
 	return context.prisma.link({ id: root.id }).postedBy();
 };
 
+const votes = (root, args, context, info) => {
+	return context.prisma.link({ id: root.id }).votes();
+};
+
 /*Resolver for each fileds
 
 Link: {
@@ -13,4 +17,4 @@ Link: {
 } */
 
 //They are not needed because the GraphQL server infers what they look like.
-module.exports = { postedBy };
+module.exports = { postedBy, votes };
