@@ -4,13 +4,15 @@ const Query = require('./resolvers/Query');
 const Mutation = require('./resolvers/Mutation');
 const User = require('./resolvers/User');
 const Link = require('./resolvers/Link');
+const Subscription = require('./resolvers/Subscription');
 
 //2 - Resolver fnc (implementation)
 const resolvers = {
 	Query,
 	Mutation,
 	User,
-	Link
+	Link,
+	Subscription
 };
 
 //3
