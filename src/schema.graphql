@@ -32,6 +32,7 @@ type User {
 	email: String!
 	password: String!
 	links: [Link!]!
+	votes: [Vote!]!
 }
 
 type Link {
@@ -44,4 +45,5 @@ type Link {
 
 type Subscription {
 	newLink: Link
+	newVote: Vote
 }
